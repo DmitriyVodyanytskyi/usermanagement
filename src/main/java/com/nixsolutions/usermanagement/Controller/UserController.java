@@ -47,6 +47,8 @@ public class UserController {
         return "redirect:browse.html";
     }
 
+
+
     @InitBinder
     public void  initBinder(WebDataBinder binder){
         binder.registerCustomEditor(Date.class,
